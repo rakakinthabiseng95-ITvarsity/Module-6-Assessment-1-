@@ -1,0 +1,186 @@
+/********************************************************************************************************************************* */
+/*Universal Styles
+/********************************************************************************************************************************* */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+p{
+    line-height: 190%
+}
+a{
+    text-decoration: none;
+    color: teal;
+}
+/********************************************************************************************************************************* */
+/*Menu Styles
+/********************************************************************************************************************************* */
+#Menu{
+    background-color: #16a085;
+    height: 100px
+}
+#Menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#Menu li{
+    display: inline-block;
+}
+#Menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color: #ffffff;
+    
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#Menu a:hover{
+    background-color:#1abc9c;
+}
+/********************************************************************************************************************************* */
+/*Header Styles
+/********************************************************************************************************************************* */
+#header{
+    padding: 60px 0 40px 0;
+    background-color: #333333;
+    text-align: center; 
+    
+}
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: #ffffff;
+}
+#header p{
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+/********************************************************************************************************************************* */
+/*Banner Styles
+/********************************************************************************************************************************* */
+#banner{
+    height: 300px;
+}
+#banner img{
+    width: 100%;
+    height: 300px;
+  
+}
+/********************************************************************************************************************************* */
+/*page Styles
+/********************************************************************************************************************************* */
+#page{
+    min-height: 400px;
+    padding: 20px;
+}
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: #16a085;
+}
+    
+    /*Content*/
+#Content{
+    float: left;
+    width: 70%;
+}
+
+ /*Sidebar*/
+#Sidebar{
+    float: right;
+    width: 25%;
+}
+
+/*list*/
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.styled li{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+    list-style: none;1
+    
+}
+    
+
+#Footer{
+    width: 100%;
+    height: 340px;
+    background-color: #1e1b1a;
+    padding-top: 25px;
+    padding-left: 22OX;
+    clear: both
+}
+#Footer p{
+    color: #adadad;
+}
+#Footer a{
+    color: #adadad;
+    
+    
+    /*Box Style/**************************************************************** */
+}
+#Box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+#Box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+#Box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+//*Box Style/**************************************************************** */
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: #16a085;
+    padding-top: 55px;
+    clear: both
+}
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* Gallery/**********************************************************************************/
+#Gallery img{
+    width: 120px;
+    margin: 12px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in;
+   
+    
+}
+#Gallery img:hover{
+    -moz-transform: scale(3);
+    -webkit-transform :scale(3);
+    -o-transform:scale(3);
+    }
